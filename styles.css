@@ -128,9 +128,14 @@ label {
 }
 
 .result {
-
+    background: linear-gradient(45deg, #f093fb 0%, #f5576c 100%);
+    padding: 2px;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
 }
 
 .error{
-    
+
 }
