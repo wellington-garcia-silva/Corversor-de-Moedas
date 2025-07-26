@@ -99,6 +99,7 @@ label {
 
 .loading{
     margin: 20px;
+    display: none;
 }
 
 .spinner{
@@ -108,6 +109,28 @@ label {
     height: 30px;
     width: 30px;
     margin: 0 auto;
-    animation: spin 1s linear infinite;
+    animation: spin 0.7s linear infinite;
+}
 
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.info {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #670;
+}
+
+.result {
+
+}
+
+.error{
+    
 }
