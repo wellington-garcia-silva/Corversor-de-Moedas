@@ -121,21 +121,28 @@ label {
     }
 }
 
-.info {
-    margin-top: 30px;
-    font-size: 14px;
-    color: #670;
-}
-
 .result {
     background: linear-gradient(45deg, #f093fb 0%, #f5576c 100%);
-    padding: 2px;
+    padding: 20px;
     margin-top: 30px;
     color: #fff;
     font-size: 1.1rem;
     font-weight: 600;
+    border-radius: 12px;
+    display: none;
 }
 
-.error{
+.error {
+    background: linear-gradient(45deg, #ff6b6b, #ee5a52);
+    color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 20px;
+    display: none;
+}
 
+.info {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #670;
 }
